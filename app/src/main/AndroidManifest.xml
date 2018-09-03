@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.bmi_app">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Intro_MainActivity" />
+        <activity android:name=".FemaleActivity" />
+        <activity android:name=".MaleActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".DietPlanActivity" />
+        <activity android:name=".DietPlanFemaleActivity" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".ExercisesActivity" />
+        <activity android:name=".ResultFemaleActivity" />
+        <activity android:name=".StaticsActivity" />
+        <activity android:name=".Exercise_DetailsActivity" />
+        <activity android:name=".AddExerciseActivity" />
+        <activity
+            android:name=".UserEnterStaticsActivity"
+            android:parentActivityName=".StaticsActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.android.bmi_app..StaticsActivity" />
+        </activity>
+        <activity android:name=".MealMangerActivity" />
+
+        <receiver android:name=".AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".AlarmReceiver_Meal">
+            <intent-filter>
+
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".FemaleStaticsActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".DiabeticsActivity" />
+        <activity android:name=".CholesterolActivity" />
+        <activity android:name=".GastritisActivity" />
+        <activity android:name=".Diea_ChoActivity" />
+        <activity android:name=".Chol_GasActivity" />
+        <activity android:name=".Gas_DieaActivity" />
+        <activity android:name=".Di_Ga_ChoActivity" />
+        <activity android:name=".PregnatActivity" />
+        <activity android:name=".DietResultActivity" />
+        <activity android:name=".DDietResultActivity" />
+        <activity android:name=".GDietResultActivity" />
+        <activity android:name=".PDietResultActivity" />
+        <activity android:name=".DCDietResultActivity" />
+        <activity android:name=".DGDietResultActivity" />
+        <activity android:name=".CGDietResultActivity" />
+        <activity android:name=".DCGDietResultActivity" />
+        <activity android:name=".CaloriesActivity" />
+        <activity android:name=".CalorieslDataActivity" />
+        <activity android:name=".WeightDataActivity" />
+        <activity android:name=".ExtraMealActivity"/>
+    </application>
+
+</manifest>

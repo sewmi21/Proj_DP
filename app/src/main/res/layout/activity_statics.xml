@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.android.bmi_app.StaticsActivity">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:gravity="center"
+    android:text="@string/height_and_weight"
+
+    android:textSize="25sp"
+    android:padding="5dp"
+    android:textColor="@color/background"
+    android:id="@+id/heading"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toTopOf="@+id/guideline101"
+    app:layout_constraintVertical_bias="0.0"
+    app:layout_constraintRight_toLeftOf="@+id/guideline127"
+    android:layout_marginRight="0dp"
+    android:layout_marginLeft="0dp"
+    app:layout_constraintLeft_toLeftOf="@+id/guideline128"
+    app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/adding_btn"
+        android:layout_width="69dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/heading"
+        android:background="@drawable/ok_btn"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline55"
+        app:layout_constraintTop_toTopOf="@+id/guideline159"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.0" />
+<com.jjoe64.graphview.GraphView
+
+    android:id="@+id/graph"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_margin="15dp"
+    android:layout_below="@+id/adding_btn"
+
+
+    android:layout_marginRight="0dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginLeft="0dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/guideline101"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toTopOf="@+id/guideline87" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline55"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline87"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline101"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.11" />
+
+    <Button
+        android:id="@+id/next"
+        android:background="@drawable/pointers"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline127"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline101" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline127"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline128"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.19" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline159"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline160"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9541446" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline161"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.81" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline162"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7865961" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline163"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline171"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline172"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline173"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.48" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline174"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline175"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.69" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline176"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7638889" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline177"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <Button
+        android:id="@+id/cross_btn"
+        android:onClick="btn2Clicked"
+        android:visibility="invisible"
+        android:background="@drawable/x"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline160"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline172"
+        app:layout_constraintRight_toLeftOf="@+id/guideline174"
+        app:layout_constraintTop_toTopOf="@+id/guideline161"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/menu_button"
+        android:onClick="btnClicked"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/plus"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline172"
+        app:layout_constraintRight_toLeftOf="@+id/guideline174"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline161"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline160"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/Rest_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_btn"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="@+id/guideline162"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline163"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline160"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintRight_toLeftOf="@+id/guideline171"
+        android:layout_marginRight="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/Diet_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/diet_plans"
+        android:visibility="invisible"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline128"
+        app:layout_constraintRight_toLeftOf="@+id/guideline173"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline159"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline161"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/exercises_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:background="@drawable/exercies"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline173"
+        app:layout_constraintRight_toLeftOf="@+id/guideline176"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline161"
+        app:layout_constraintTop_toTopOf="@+id/guideline159"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/Static_btn"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/statics"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline175"
+        app:layout_constraintRight_toLeftOf="@+id/guideline177"
+        android:layout_marginRight="0dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline162"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline160" />
+
+
+</android.support.constraint.ConstraintLayout>

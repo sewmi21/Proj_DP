@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spalsh"
+    tools:context="com.example.android.bmi_app.SplashActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:textStyle="bold"
+        android:layout_height="0dp"
+
+        android:text="Diet Plan"
+        android:gravity="center"
+        android:textColor="#f4153a"
+        android:textSize="30sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline67"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline65"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginRight="8dp" />
+
+    <ImageView
+        android:id="@+id/splash_img"
+        android:layout_width="162dp"
+        android:layout_height="166dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/icon"
+        app:layout_constraintTop_toTopOf="@+id/guideline65"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline66"
+        app:layout_constraintVertical_bias="0.456"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline65"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2680776" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline67"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.107583776" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="@string/diet_plan_name"
+        android:textColor="@color/White"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline68"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline66"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline68"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline69" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline68"
+        app:layout_constraintGuide_begin="463dp"
+        android:orientation="horizontal" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline69"
+        app:layout_constraintGuide_begin="532dp"
+        android:orientation="horizontal" />
+
+</android.support.constraint.ConstraintLayout>

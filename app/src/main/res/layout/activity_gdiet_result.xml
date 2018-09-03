@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.bmi_app.GDietResultActivity">
+    <include layout="@layout/tool_bar"
+        android:id="@+id/tool_bar"/>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar"
+        android:background="@color/background"
+        android:minHeight="?attr/actionBarSize"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#003984"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#1b2445"
+        app:tabTextColor="@color/White"
+        android:id="@+id/tab_layout">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tab_layout"
+        android:id="@+id/view_pager">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

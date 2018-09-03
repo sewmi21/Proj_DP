@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Diet Plan Manger</string>
+    <string name="inches">(inches)</string>
+    <string name="diet_plan">Diet Plan Manger</string>
+    <string name="are_you_a_cholesterol_patient">Are you a Cholesterol Patient ?</string>
+    <string name="are_you_a_diabetics_patient">Are you a Diabetics Patient ?</string>
+    <string name="these_questions">These questions</string>
+    <string name="may_help_to_me">may help to me</string>
+    <string name="are_you_suffering_from_gastritis">Are you Suffering from Gastritis ?</string>
+    <string name="are_you_a_heart_patient">Are you a Heart Patient ?</string>
+    <string name="select_your">Select your</string>
+    <string name="are_you_pregnant">Are you Pregnant ?</string>
+    <string name="exercises">Extra Meal</string>
+    <string name="you_have_done">you have done</string>
+    <string name="add_new_exercises">Add Meal</string>
+    <string name="select_meal_eat">Select Meal You Eat</string>
+    <string name="meters">meters</string>
+    <string name="textView">TextView</string>
+    <string name="minutes">minutes</string>
+    <string name="times">times</string>
+    <string name="_0">0</string>
+    <string name="add">add</string>
+    <string name="total_calories_you_burned">Total calories you earned</string>
+    <string name="total">Total</string>
+    <string name="cancel">cancel</string>
+    <string name="calories">calories :</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="height_and_weight">Height and Weight</string>
+    <string name="diet_plan_name">Diet Plan Manger</string>
+    <string name="create_meal">create Meal</string>
+    <string name="AlterMeal">Alter Meal</string>
+
+
+    <string-array name="acc_type">
+        <item>Kottu</item>
+        <item>Fried Rice </item>
+        <item>Hamburger</item>
+        <item>Pizza</item>
+        <item>Submarine bun</item>
+        <item>Pancake</item>
+        <item>String Hoppers </item>
+        <item>Noodles</item>
+        <item>Macaroni</item>
+        <item>Pasta</item>
+        <item>Biryani </item>
+        <item>Pittu </item>
+        <item>Kiribath</item>
+        <item>Roti</item>
+        <item>Lamprais </item>
+        <item>fruits Salad </item>
+        <item>cake</item>
+        <item>sandwich</item>
+        <item>Vade</item>
+
+    </string-array>
+
+</resources>

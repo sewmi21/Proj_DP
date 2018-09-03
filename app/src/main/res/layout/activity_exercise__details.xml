@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.bmi_app.Exercise_DetailsActivity">
+
+
+     <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline164"
+         android:orientation="horizontal"
+         app:layout_constraintGuide_percent="0.18" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline165"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.86" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/delete_btn"
+        app:layout_constraintTop_toTopOf="@+id/guideline166"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline167"
+        app:layout_constraintRight_toLeftOf="@+id/guideline168"
+        android:layout_marginRight="8dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline166"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline167"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.32" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline168"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="0dp"
+
+        android:layout_height="0dp"
+        android:layout_margin="25dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff"
+        android:elevation="15dp"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline165"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline164"
+        app:layout_constraintVertical_bias="0.9">
+
+        <LinearLayout
+
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_below="@+id/cardView1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/min_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" Times :"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:id="@+id/minutes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Times"
+                android:textColor="#4f64ff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_below="@+id/lin1"
+            android:layout_marginTop="75dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text="  Qty     :"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:id="@+id/times"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.89"
+                android:gravity="center"
+                android:text="Qty"
+                android:textColor="#4f64ff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lin3"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_below="@+id/lin2"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/calorie_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" Calories:"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.89"
+                android:gravity="center"
+                android:text="calories"
+                android:textColor="#4f64ff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lin4"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_below="@+id/lin2"
+            android:layout_marginTop="225dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/meter_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="  Extra   :"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:id="@+id/meters"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.89"
+                android:gravity="center"
+                android:text="  Extra"
+                android:textColor="#4f64ff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline169"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95555556" />
+
+    <TextView
+        android:id="@+id/detailsDateText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="date"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/guideline170"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline164"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline168"
+        app:layout_constraintVertical_bias="0.416"
+        app:layout_constraintRight_toLeftOf="@+id/guideline169"
+        android:layout_marginRight="8dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline170"
+        app:layout_constraintGuide_begin="67dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView"
+        android:textColor="#4f64ff"
+        android:textSize="30sp"
+        android:gravity="center"
+        app:layout_constraintRight_toLeftOf="@+id/guideline168"
+        android:layout_marginRight="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline170"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calender"
+        app:layout_constraintRight_toLeftOf="@+id/guideline169"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline168"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline170"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5cade3"
+    tools:context="com.example.android.bmi_app.DietPlanFemaleActivity">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline47"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline51"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.58" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline52"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline53"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline54"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline56"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline57"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline58"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.83" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline59"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/guideline60"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline61"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline62"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline63"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27" />
+
+
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline144"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline147"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.19" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline148"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline149"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline150"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.48" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline151"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline152"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.69" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline153"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.76111114" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline154"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline155"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline156"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.81" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline157"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.76" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline158"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <Button
+        android:id="@+id/menu_button"
+        android:onClick="btnClicked"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/plus"
+        app:layout_constraintTop_toTopOf="@+id/guideline156"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline149"
+        app:layout_constraintRight_toLeftOf="@+id/guideline151"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline155" />
+
+    <Button
+        android:id="@+id/cross_btn"
+        android:onClick="btn2Clicked"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/x"
+        android:visibility="invisible"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline149"
+        app:layout_constraintTop_toTopOf="@+id/guideline156"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline155"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/Rest_btn"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_btn"
+        app:layout_constraintTop_toTopOf="@+id/guideline157"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        app:layout_constraintRight_toLeftOf="@+id/guideline148"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline155"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/Diet_btn"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/diet_plans"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline147"
+        app:layout_constraintTop_toTopOf="@+id/guideline158"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline156"
+        app:layout_constraintRight_toLeftOf="@+id/guideline150"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/exercises_btn"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/exercies"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline150"
+        app:layout_constraintTop_toTopOf="@+id/guideline158"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline156"
+        app:layout_constraintRight_toLeftOf="@+id/guideline153"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <Button
+        android:id="@+id/Static_btn"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/statics"
+        app:layout_constraintTop_toTopOf="@+id/guideline157"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline155"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="0dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline152"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/diabetics"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="."
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:background="@drawable/gen_diet"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/Cholesterol"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="."
+        android:textStyle="bold"
+        android:textSize="11sp"
+        android:visibility="invisible"
+        android:textColor="@color/White"
+        android:background="@drawable/gen_diet"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/gastritis_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Diet"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:textColor="@color/White"
+        android:background="@drawable/gen_diet"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/diea_cho_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="."
+        android:visibility="invisible"
+        android:textColor="@color/White"
+        android:background="@drawable/gen_diet"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/Chol_Gas_Btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="."
+        android:textColor="@color/White"
+        android:visibility="invisible"
+        android:background="@drawable/gen_diet"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/Di_Ga_Cho_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="."
+        android:visibility="invisible"
+        android:textColor="@color/White"
+        android:background="@drawable/gen_diet"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151" />
+
+    <Button
+        android:id="@+id/Gas_diea_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:background="@drawable/gen_diet"
+        android:text="GAS + DIEA "
+        android:textColor="@color/White"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:text="High Protein"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline58"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline59"
+        app:layout_constraintTop_toTopOf="@+id/guideline63"
+        android:layout_marginTop="0dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="High Carbs Low Protein"
+        android:textColor="@color/White"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline58"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline194"
+        app:layout_constraintTop_toTopOf="@+id/guideline60"
+        android:layout_marginTop="0dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline194"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="High Protein Low Carbs"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="@color/White"
+        app:layout_constraintRight_toLeftOf="@+id/guideline58"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline196"
+        app:layout_constraintTop_toTopOf="@+id/guideline195"
+        android:layout_marginTop="0dp" />
+
+    <CheckBox
+        android:id="@+id/diabetics_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline58"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline59"
+        app:layout_constraintTop_toTopOf="@+id/guideline63"
+        android:layout_marginTop="0dp" />
+
+    <CheckBox
+        android:id="@+id/Cholesterol_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline58"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline194"
+        app:layout_constraintTop_toTopOf="@+id/guideline60"
+        android:layout_marginTop="0dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/gastritis_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline58"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline196"
+        app:layout_constraintTop_toTopOf="@+id/guideline195"
+        android:layout_marginTop="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline195"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline196"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="These questions may help us to create diet plan"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline52"
+        app:layout_constraintRight_toLeftOf="@+id/guideline51"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="@color/White"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        android:text="@string/diet_plan"
+        app:layout_constraintRight_toLeftOf="@+id/guideline51"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline52"
+        app:layout_constraintHorizontal_bias="0.494"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView61"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57" />
+
+    <Button
+        android:id="@+id/checkBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Generate your meal plan"
+        android:textColor="@color/background"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="0dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline76"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline77"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="General Meal Plan"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="@color/White"
+        app:layout_constraintRight_toLeftOf="@+id/guideline58"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        app:layout_constraintTop_toTopOf="@+id/guideline196"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline76"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/pregnant_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/gastritis_checkBox"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline76"
+        app:layout_constraintLeft_toRightOf="@+id/textView15"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="0dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/pregnant_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gen_diet"
+        android:visibility="invisible"
+        android:textColor="@color/White"
+        app:layout_constraintTop_toTopOf="@+id/guideline47"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/Gas_diea_btn"
+        app:layout_constraintVertical_bias="0.4"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline151"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline76"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline77"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <Button
+        android:id="@+id/extra_meal_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Customize Your Meal"
+        android:textColor="@color/background"
+        app:layout_constraintRight_toLeftOf="@+id/guideline154"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline144"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline156"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBtn" />
+
+
+</android.support.constraint.ConstraintLayout>
